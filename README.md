@@ -1,7 +1,5 @@
-# Flight Ticket Price Prediction
-* Flight ticket prices can be something hard to guess, today we might see a price, check out the price of the same flight tomorrow, it will be a different story. We might have often heard travellers saying that flight ticket prices are so unpredictable. 
-* Here you will be provided with prices of flight tickets for various airlines between the months of March and June of 2019 and between various cities.
-
+# Flight Ticket Price Prediction 
+Developed a machine learning project using Streamlit to predict flight prices. Utilized a reg model (loaded via joblib) to estimate prices based on user inputs including (airline, source, destination, travel duration, stops, additional flight information, and travel date). Implemented an interactive interface with dropdowns, sliders, and date inputs for seamless user experience. Processed and transformed input data using Pandas to ensure compatibility with the model, delivering accurate price predictions in real-time.
 
 ### Type of Machine Learning task : 
 It is an regression problem where given a set of features we need to predict the price of ticket from one city to another.
